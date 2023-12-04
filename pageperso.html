@@ -12,16 +12,22 @@
         <a href="#parcours">Parcours</a>
         <a href="#projets">Projets</a>
         <a href="#contact">Contact</a>
-        <a href="title">I A</a>
+        <a href="home">I A</a>
     </nav>
-    <section id="title">
-<img src="./Assets/i.png" height="" alt="logo-IA">
-<h1>Ismail ABDELHAKK</h1>
-<p>Inspiré par ma curiosité pour les nouvelles technologies, 
-    j'ai envie d'apprendre et de relever de nouveaux défis.</p>
-</section>
+    
 </header>
   <main>
+    <section id="home">
+        <div class="home">
+       <div><img src="i (1).png" height="" alt="logo-IA">
+    </div>
+    <div>
+        <h1>Ismail ABDELHAKK</h1>
+        <p>Inspiré par ma curiosité pour les nouvelles technologies, 
+            j'ai envie d'apprendre et de relever de nouveaux défis.</p>
+        </div>
+        </section>
+
     <section id="parcours">
         <div class="parcours">
         <h2>Parcours</h2>
@@ -61,9 +67,31 @@
 
     <section id="Contact"></section>
     <h2>Contact</h2>
+    <div class="Contact">
+        <h2>Me Contacter</h2>
+        <form action="#" method="post">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </div>
 </main>
 
     <footer>
+        <div class="foot">
+        <div>
+        <img src="./Assets/envelope-regular.svg" height="70" alt="logo-html" /></div>
+        <div>
+            <img src="./Assets/file-regular.svg" height="70" alt="logo-html" />
+        </div>
+    </div>
         <p>Thank you for visiting my webpage!</p> 
         <p>Copyright © 2023 Ismail ABDELHAKK. Tous droits réservés</p>
     
